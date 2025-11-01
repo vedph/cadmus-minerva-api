@@ -1,0 +1,6 @@
+@CadmusMinervaApi_HostAddress = http://localhost:5106
+
+GET {{CadmusMinervaApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

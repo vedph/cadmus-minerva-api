@@ -1,0 +1,397 @@
+{
+  "facets": [
+    {
+      "id": "entry",
+      "label": "entrata",
+      "description": "Entrata lessicale.",
+      "colorKey": "86ACEB",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Metadati.",
+          "colorKey": "F8C0C0",
+          "groupKey": "identità",
+          "sortKey": "01"
+        },
+        {
+          "typeId": "it.vedph.lexicography.lemma",
+          "name": "lemma",
+          "description": "Lemma.",
+          "colorKey": "A0C0F8",
+          "groupKey": "identità",
+          "sortKey": "02"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "roleId": "entry",
+          "name": "collegamenti",
+          "description": "Collegamenti ad altre parole.",
+          "colorKey": "A0C0F8",
+          "groupKey": "identità",
+          "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.decorated-counts",
+          "name": "counts",
+          "description": "Statistiche.",
+          "colorKey": "B1E0EA",
+          "groupKey": "identità",
+          "sortKey": "04"
+        },
+        {
+          "typeId": "it.vedph.asserted-historical-dates",
+          "name": "date",
+          "description": "Data di prima attestazione e altre date.",
+          "colorKey": "F898F8",
+          "groupKey": "identità",
+          "sortKey": "05"
+        },
+        {
+          "typeId": "it.vedph.lexicography.word-forms",
+          "name": "flessione",
+          "description": "Forme flesse rilevanti.",
+          "colorKey": "A0C0F8",
+          "groupKey": "morfologia",
+          "sortKey": "06"
+        },
+        {
+          "typeId": "it.vedph.lexicography.word-senses",
+          "name": "definizione",
+          "description": "Definizione semantica.",
+          "colorKey": "A0C0F8",
+          "groupKey": "significato",
+          "sortKey": "07"
+        },
+        {
+          "typeId": "it.vedph.comment",
+          "name": "commento",
+          "description": "Commento.",
+          "colorKey": "B2E0AA",
+          "groupKey": "significato",
+          "sortKey": "08"
+        },
+        {
+          "typeId": "it.vedph.lexicography.word-collocations",
+          "name": "collocazioni",
+          "description": "Collocazioni tipiche.",
+          "colorKey": "A0C0F8",
+          "groupKey": "significato",
+          "sortKey": "09"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "roleId": "law",
+          "name": "articoli",
+          "description": "Collegamenti ad articoli di legge.",
+          "colorKey": "A0C0F8",
+          "groupKey": "significato",
+          "sortKey": "10"
+        },
+        {
+          "typeId": "it.vedph.doc-references",
+          "name": "riferimenti",
+          "description": "Riferimenti a documenti (uso interno).",
+          "colorKey": "BEF0AA",
+          "groupKey": "redazione",
+          "sortKey": "11"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "nota",
+          "description": "Annotazione libera (uso interno).",
+          "colorKey": "B0A0F8",
+          "groupKey": "redazione",
+          "sortKey": "12"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "id": 1,
+      "label": "bozza",
+      "description": "Bozza di scheda.",
+      "colorKey": "D4A5A5"
+    },
+    {
+      "id": 2,
+      "label": "completa",
+      "description": "Scheda completa.",
+      "colorKey": "F0B880"
+    },
+    {
+      "id": 4,
+      "label": "revised",
+      "description": "Scheda revisionata.",
+      "colorKey": "60CF60"
+    },
+    {
+      "id": 8,
+      "label": "template",
+      "description": "Scheda modello.",
+      "colorKey": "C0C0C0"
+    }
+  ],
+  "index": {
+    "writer": {
+      "id": "item-index-writer.ef-pg"
+    },
+    "reader": {
+      "id": "item-index-reader.ef-pg"
+    }
+  },
+  "graph": {
+    "repository": {
+      "id": "graph-repository.ef-pg"
+    }
+  },
+  "browsers": [
+    {
+      "id": "it.vedph.item-browser.mongo.hierarchy"
+    }
+  ],
+  "thesauri": [
+    {
+      "id": "model-types@en",
+      "entries": [
+        {
+          "id": "it.vedph.asserted-historical-dates",
+          "value": "date"
+        },
+        {
+          "id": "it.vedph.comment",
+          "value": "commento"
+        },
+        {
+          "id": "it.vedph.doc-references",
+          "value": "riferimenti"
+        },
+        {
+          "id": "it.vedph.decorated-counts",
+          "value": "statistiche"
+        },
+        {
+          "id": "it.vedph.lexicography.lemma",
+          "value": "lemma"
+        },
+        {
+          "id": "it.vedph.lexicography.word-forms",
+          "value": "flessione"
+        },
+        {
+          "id": "it.vedph.lexicography.word-senses",
+          "value": "definizione"
+        },
+        {
+          "id": "it.vedph.lexicography.word-collocations",
+          "value": "collocazioni"
+        },
+        {
+          "id": "it.vedph.metadata",
+          "value": "metadati"
+        },
+        {
+          "id": "it.vedph.note",
+          "value": "nota"
+        },
+        {
+          "id": "it.vedph.pin-links",
+          "value": "collegamenti"
+        },
+        {
+          "id": "it.vedph.pin-links:entry",
+          "value": "collegamenti"
+        },
+        {
+          "id": "it.vedph.pin-links:law",
+          "value": "articoli"
+        }
+      ]
+    },
+    {
+      "id": "comment-categories@en",
+      "entries": [
+        {
+          "id": "a",
+          "value": "alpha"
+        },
+        {
+          "id": "b",
+          "value": "beta"
+        }
+      ]
+    },
+    {
+      "id": "lex-pos-tags@en",
+      "entries": [
+        {
+          "id": "noun",
+          "value": "sostantivo"
+        },
+        {
+          "id": "verb",
+          "value": "verbo"
+        },
+        {
+          "id": "adjective",
+          "value": "aggettivo"
+        },
+        {
+          "id": "adverb",
+          "value": "avverbio"
+        },
+        {
+          "id": "det",
+          "value": "determinante"
+        },
+        {
+          "id": "pron",
+          "value": "pronome"
+        },
+        {
+          "id": "prep",
+          "value": "preposizione"
+        }
+      ]
+    },
+    {
+      "id": "lex-word-ctoken-pos-tags@en",
+      "targetId": "lex-pos-tags"
+    },
+    {
+      "id": "lex-word-form-features@en",
+      "entries": [
+        {
+          "id": "number:singular",
+          "value": "singolare"
+        },
+        {
+          "id": "number:plural",
+          "value": "plurale"
+        },
+        {
+          "id": "gender:masculine",
+          "value": "maschile"
+        },
+        {
+          "id": "gender:feminine",
+          "value": "femminile"
+        }
+      ]
+    },
+    {
+      "id": "lex-word-form-tags@en",
+      "entries": [
+        {
+          "id": "obsolete",
+          "value": "obsoleto"
+        },
+        {
+          "id": "informal",
+          "value": "informale"
+        },
+        {
+          "id": "technical",
+          "value": "tecnico"
+        }
+      ]
+    },
+    {
+      "id": "lex-word-form-types@en",
+      "entries": [
+        {
+          "id": "written",
+          "value": "ortografia"
+        },
+        {
+          "id": "spoken",
+          "value": "pronunzia"
+        }
+      ]
+    },
+    {
+      "id": "metadata-types@en",
+      "entries": [
+        {
+          "id": "string",
+          "value": "stringa"
+        },
+        {
+          "id": "boolean",
+          "value": "booleano"
+        },
+        {
+          "id": "number",
+          "value": "numero"
+        }
+      ]
+    },
+    {
+      "id": "metadata-names@en",
+      "entries": [
+        {
+          "id": "eid",
+          "value": "EID"
+        },
+        {
+          "id": "author",
+          "value": "autore"
+        },
+        {
+          "id": "revisor",
+          "value": "revisore"
+        }
+      ]
+    }
+  ],
+  "seed": {
+    "options": {
+      "seed": 1,
+      "users": ["zeus"],
+      "partRoles": [],
+      "fragmentRoles": []
+    },
+    "partSeeders": [
+      {
+        "id": "seed.it.vedph.asserted-historical-dates"
+      },
+      {
+        "id": "seed.it.vedph.comment",
+        "options": {
+          "languages": ["it"],
+          "categories": []
+        }
+      },
+      {
+        "id": "seed.it.vedph.decorated-counts"
+      },
+      {
+        "id": "seed.it.vedph.doc-references"
+      },
+      {
+        "id": "seed.it.vedph.lexicography.lemma"
+      },
+      {
+        "id": "seed.it.vedph.lexicography.word-collocations"
+      },
+      {
+        "id": "seed.it.vedph.lexicography.word-forms"
+      },
+      {
+        "id": "seed.it.vedph.lexicography.word-senses"
+      },
+      {
+        "id": "seed.it.vedph.metadata"
+      },
+      {
+        "id": "seed.it.vedph.note"
+      },
+      {
+        "id": "seed.it.vedph.pin-links"
+      }
+    ],
+    "fragmentSeeders": []
+  },
+  "settings": {}
+}
