@@ -9,3 +9,9 @@ Cadmus API for the Minerva lexicon editor.
 (replace with the current version).
 
 This is a Cadmus API layer customized for the PRJ project. Most of its code is derived from [shared Cadmus libraries](https://github.com/vedph/cadmus-api).
+
+## History
+
+### 1.0.0
+
+- 2025-11-24: ⚠️ upgraded to NET 10.
