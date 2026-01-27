@@ -302,7 +302,7 @@
       "entries": [
         {
           "id": "written",
-          "value": "ortografia"
+          "value": "grafia"
         },
         {
           "id": "spoken",
@@ -341,6 +341,10 @@
         {
           "id": "revisor",
           "value": "revisore"
+        },
+        {
+          "id": "date",
+          "value": "data"
         }
       ]
     }
