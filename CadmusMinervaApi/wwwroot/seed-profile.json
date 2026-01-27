@@ -2,8 +2,8 @@
   "facets": [
     {
       "id": "entry",
-      "label": "entrata",
-      "description": "Entrata lessicale.",
+      "label": "voce",
+      "description": "Voce lessicale.",
       "colorKey": "86ACEB",
       "partDefinitions": [
         {
